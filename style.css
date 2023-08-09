@@ -6,7 +6,16 @@
     padding: 0;
 }
 
+.main-body {
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
 header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
     background-color: #303030;
     height: 50px;
     display: flex;
@@ -210,6 +219,7 @@ section ul {
 
 
 .sec {
+    margin: 10px 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -271,6 +281,7 @@ section ul {
     position: relative;
     margin: 10px 20px;
     background-image: url("./Assets/sec1-bg.png");
+    fill: none;
     height: 814px;
 }
 
